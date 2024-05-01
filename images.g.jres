@@ -1,0 +1,32 @@
+{
+    "kf+AIO@?U3tw3f|ZFJ)3": {
+        "data": "hwQPAA8AAAC7u7u7u7u7C7u7u7u7u7sLu7u7u7u7uwu7u7u7u7u7C7u7u7u7u7sLu7u7u7u7uwu7u7u7u7u7C7u7u7u7u7sLu7u7u7u7uwu7u7u7u7u7C7u7u7u7u7sLu7u7u7u7uwu7u7u7u7u7C7u7u7u7u7sLu7u7u7u7uws=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "TextBox"
+    },
+    "+Nt)-OPp33Z#KKL@TPxX": {
+        "data": "hwQQABAAAAAAAHB3dwcAAAAAcHd3BwAAAABwd3cHAAAAAHB3dwcAAAAAcHd3BwAAAABwd3cHAAAAd3d3d3d3AABwd3d3dwcAAHB3d3d3BwAAAHd3d3cAAAAAd3d3BwAAAABwd3cHAAAAAHB3dwAAAAAAAHcHAAAAAAAAdwcAAAAAAABwAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Arrow"
+    },
+    "P7H(~in=96GO6a~C*vtP": {
+        "data": "hwQQABAAAAD//////////x8RERERERHxn5mZmZmZmfGfmZmZmZmZ8Z+ZmZmZmZnxn5mZmZmZmfGfmZmZmZmZ8Z/5kZmZmZnxn/mRmZmZmfGf+ZGZmZmZ8Z/5kZmZmZnxn/kREZmZmfGf+f//mZmZ8Z+ZmZmZmZnxn5mZmZmZmfH//////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Square"
+    },
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBWAAAAAAAAZWUFAAAAAABWVgYAAAAAAGVlBQAAAAAA//8PAAAAAAD//w8AAAAAAPD/AAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Tenrec0"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBCAAAAAAAAJCQEAAAAAABCQgIAAAAAACQkBAAAAAAA//8PAAAAAAD//w8AAAAAAPD/AAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "RedTenrec"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}

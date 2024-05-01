@@ -1,7 +1,17 @@
 namespace SpriteKind {
     export const sprite = SpriteKind.create()
 }
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (Math.percentChance(100 / 3)) {
+        mySprite.setImage(assets.image`Tenrec0`)
+    } else if (Math.percentChance(100 / 3)) {
+        mySprite.setImage(assets.image`RedTenrec`)
+    } else {
+        mySprite.setImage(assets.image`Square`)
+    }
+})
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    controller.moveSprite(mySprite, 0, 0)
     Script = game.askForString("New script:", 24)
     if (Script.includes("getkey")) {
         pause(100)
@@ -58,28 +68,12 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         }
     }
     game.showLongText("New script", DialogLayout.Left)
+    controller.moveSprite(mySprite)
 })
 let RepeatTimes = 0
 let Script = ""
 let mySprite: Sprite = null
-mySprite = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . 5 6 5 f f . . . . . . 
-    . . . . 5 6 5 6 f f f . . . . . 
-    . . . . 6 5 6 5 f f f 3 . . . . 
-    . . . . 5 6 5 6 f f f . . . . . 
-    . . . . . 5 6 5 f f . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, SpriteKind.sprite)
+mySprite = sprites.create(assets.image`Tenrec0`, SpriteKind.sprite)
 scene.setBackgroundColor(1)
 game.setDialogFrame(img`
     b b b b b b b b b b b b b b b 
@@ -117,3 +111,4 @@ game.setDialogCursor(img`
     . . . . . . . . . . . . . . . . 
     `)
 game.showLongText("New script", DialogLayout.Left)
+controller.moveSprite(mySprite)
